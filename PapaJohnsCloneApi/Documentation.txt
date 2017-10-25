@@ -1,0 +1,127 @@
+﻿***
+Title : Get
+Description : hardcoded data for testing 
+URL : /api/item/
+Method : GET
+URL Params : none
+Data Params : 
+["PapaJohnsClone1","PapaJohnsClone2","PapaJohnsClone3"]
+
+
+***
+Title : GetItemCategoryList
+URL : /api/item/categories
+Method : GET
+URL Params : none
+Data Params : 
+	[{"id":1,"name":"Desserts"},{"id":2,"name":"Drinks"},{"id":3,"name":"Extras"},{"id":4,"name":"Pizza"},{"id":5,"name":"Sides"}]
+Response Codes: Success (200 OK), Bad Request (400)
+
+
+***
+Title : GetSpecialList
+Description : gets the list of special items
+URL : /api/item/specials
+Method : GET
+URL Params : none
+Data Params : 
+	[{"id":1,"name":"Create Your Own","description":"25% off Regular Menu Price Online Orders","itemCategoryId":4,"itemCategoryName":"Specials","price":10.99}]
+Response Codes: Success (200 OK), Not Found (404)
+
+
+***
+Title : GetItemListByCategoryId
+URL : /api/item/items/1
+Method : GET
+URL Params : itemCategoryId
+Data Params : 
+	[{"id":3,"name":"Cinnamon Pull Aparts","description":"Bite-sized sweet roll","itemCategoryId":1,"itemCategoryName":"Desserts","price":6.29}]
+Response Codes: Success (200 OK), Not Found (404)
+
+
+***
+Title : GetCustomizedCategoryList
+URL : /api/item/customized/category
+Method : GET
+URL Params : none
+Data Params : 
+	[{"id":0,"name":"Size & Crust"},{"id":1,"name":"Cheeses"},{"id":2,"name":"Meats"},{"id":3,"name":"Veggies"}]
+Response Codes: Success (200 OK), Not Found (404)
+
+
+***
+Title : GetCustomizedItem
+URL : /api/item/customized/item/1
+Method : GET
+URL Params : itemId
+Data Params : 
+	{
+    "itemId": 1,
+    "itemName": "Create Your Own",
+    "itemCategoryId": 4,
+    "questionList": [
+        {
+            "questionCategoryId": 1,
+            "questionCategoryName": "Crust Style",
+            "allowedQuestionList": [
+                {
+                    "id": 1,
+                    "name": "Original"
+                },
+                {
+                    "id": 2,
+                    "name": "Pan"
+                },
+                {
+                    "id": 3,
+                    "name": "Thin"
+                }
+            ],
+            "selectedQuestionId": 1
+        },        
+        {
+            "questionCategoryId": 5,
+            "questionCategoryName": "How Much Cheese",
+            "allowedQuestionList": [
+                {
+                    "id": 19,
+                    "name": "Extra"
+                },
+                {
+                    "id": 20,
+                    "name": "Light"
+                }
+            ],
+            "selectedQuestionId": 22
+        }
+    ],
+    "toppingList": [
+        {
+            "id": 1,
+            "toppingCategoryId": 1,
+            "name": "Cheddar Cheese"
+        },
+        {
+            "id": 2,
+            "toppingCategoryId": 1,
+            "name": "Extra Cheese"
+        }
+    ]
+}
+Response Codes: Success (200 OK), Not Found (404)
+
+
+***
+Title : GetSelectedToppingList
+URL : /api/item/customized/selected-topping/2
+Method : GET
+URL Params : itemId
+Data Params : [{"id":16,"name":"GreenPeppers"},{"id":19,"name":"Onions"}]
+
+
+***
+Title : GetRecalculatedPrice
+URL : /api/item/customized/recalculatedPrize/paramsToRecalculatePrice?itemId=1&sizeId=4&countTopping=4
+Method : GET
+URL Params : int itemId, int sizeId, int countTopping
+Data Params : 11.19

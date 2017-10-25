@@ -1,0 +1,11 @@
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\bin\Debug\netcoreapp2.0\PapaJohnsCloneApi.deps.json
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\bin\Debug\netcoreapp2.0\PapaJohnsCloneApi.runtimeconfig.json
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\bin\Debug\netcoreapp2.0\PapaJohnsCloneApi.runtimeconfig.dev.json
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\bin\Debug\netcoreapp2.0\PapaJohnsCloneApi.dll
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\obj\Debug\netcoreapp2.0\PapaJohnsCloneApi.csproj.CoreCompileInputs.cache
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\obj\Debug\netcoreapp2.0\PapaJohnsCloneApi.AssemblyInfoInputs.cache
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\obj\Debug\netcoreapp2.0\PapaJohnsCloneApi.AssemblyInfo.cs
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\bin\Debug\netcoreapp2.0\PapaJohnsCloneApi.pdb
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\obj\Debug\netcoreapp2.0\PapaJohnsCloneApi.dll
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\obj\Debug\netcoreapp2.0\PapaJohnsCloneApi.pdb
+C:\Users\samir\OneDrive\Documents\Visual Studio 2017\Projects\PapaJohnsCloneApi\PapaJohnsCloneApi\obj\Debug\netcoreapp2.0\PapaJohnsCloneApi.csprojResolveAssemblyReference.cache
