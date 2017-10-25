@@ -1,10 +1,12 @@
 # PapaJohnsCloneApi app
-This web service was developed for [PapaJohnsClone web application](https://tiamatt.github.io/PapaJohnsClone) 
+This web service was developed for [PapaJohnsClone web application](https://tiamatt.github.io/PapaJohnsClone)__
+See [PapaJohnsClone repository](https://github.com/Tiamatt/PapaJohnsClone)
 
 ## Demo
 Web service was deployed to Microsoft Azure Cloud
-Example:
+Example__: 
 https://papajohnscloneapi.azurewebsites.net/api/item/categories
+__result__
 ```json
 [
     {
@@ -34,7 +36,7 @@ See more information in Documentation.txt
 
 ## Features
 * ASP.NET Web API
-* all methods used Async/Await approach 
+* all methods use Async/Await approach 
 
 ## Built With 
 * .NET Core 2.0 Framework
