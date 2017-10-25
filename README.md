@@ -35,10 +35,15 @@ See more information in Documentation.txt
 
 ## Features
 * ASP.NET Web API
-* all methods use Async/Await approach 
+* Async/Await approach
+* CORS configuration
+* SSL configuration 
 
-## Built With 
+## Built With
 * .NET Core 2.0 Framework
+* Entity Framework Core 2.0
+* C#
+* Visual Studio 2017 
 
 ## Getting Started
 Note that this project requires Visual Studio 2017 or Visual Studio Code  <br />
