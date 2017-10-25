@@ -1,12 +1,11 @@
 # PapaJohnsCloneApi app
-This web service was developed for [PapaJohnsClone web application](https://tiamatt.github.io/PapaJohnsClone)__
+This web service was developed for [PapaJohnsClone web application](https://tiamatt.github.io/PapaJohnsClone) <br />
 See [PapaJohnsClone repository](https://github.com/Tiamatt/PapaJohnsClone)
 
 ## Demo
-Web service was deployed to Microsoft Azure Cloud
-Example__: 
+Web service was deployed to Microsoft Azure Cloud <br />
+Example: 
 https://papajohnscloneapi.azurewebsites.net/api/item/categories
-__result__
 ```json
 [
     {
@@ -49,4 +48,3 @@ $ git clone https://github.com/Tiamatt/PapaJohnsCloneApi
 # open PapaJohnsCloneApi.sln with Visual Studio
 # or open the folder with Visual Studio Code
 ```
-
