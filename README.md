@@ -41,7 +41,7 @@ See more information in Documentation.txt
 * .NET Core 2.0 Framework
 
 ## Getting Started
-Note that this project requires Visual Studio 2017 or Visual Studio Code
+Note that this project requires Visual Studio 2017 or Visual Studio Code  <br />
 In order to start the project use:
 ```bash
 $ git clone https://github.com/Tiamatt/PapaJohnsCloneApi
