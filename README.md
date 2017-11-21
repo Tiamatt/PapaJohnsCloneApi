@@ -3,9 +3,9 @@ This web service was developed for [PapaJohnsClone web application](https://tiam
 See [PapaJohnsClone repository](https://github.com/Tiamatt/PapaJohnsClone)
 
 ## Demo
-Web service was deployed to Microsoft Azure Cloud <br />
+Web service was deployed to SmarterAsp.Net (moved from Microsoft Azure Cloud) <br />
 Example: 
-https://papajohnscloneapi.azurewebsites.net/api/item/categories
+https://www.tiamatt.com/api/item/categories
 ```json
 [
     {
