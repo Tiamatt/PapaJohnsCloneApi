@@ -11,6 +11,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using PapaJohnsCloneApi.Models;
 using Microsoft.EntityFrameworkCore;
+using PapaJohnsCloneApi.ModelsAnalytics;
 
 namespace PapaJohnsCloneApi
 {
@@ -45,6 +46,9 @@ namespace PapaJohnsCloneApi
 
             var defaultCon = Configuration.GetConnectionString("Default");
             services.AddDbContext<PapaJohnsCloneDbContext>(options => options.UseSqlServer(defaultCon));
+
+            var analyticsCon = Configuration.GetConnectionString("AnalyticsConString");
+            services.AddDbContext<AnalyticsDbContext>(options => options.UseSqlServer(analyticsCon));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

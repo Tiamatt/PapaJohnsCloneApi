@@ -6,15 +6,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqu5uh9jKJUePxBdhwAwXoAAAAAACAAAAAAAQZgAAAAEAACAAAABLB4zcwY9XzNbTxkjkm/KzFa6CQV+LF0XIzydqwmwXTwAAAAAOgAAAAAIAACAAAAA8OaaN0qU9UkjZy8atDC+pGkDDMxo0yUe6FAT7vXG/ZDAAAABQZK9HDNIrq8dD11NhdUR/TfZY8XmCS1TeNCH2wSg6tHfs1uNZQ4yXL4+1tMi6h9lAAAAAPuOFHSp/rNTV9cI6AtSlbNnR1UlTV++CfHQHMmb51YuQVovn/t6gIRMqHtG5BrwphOeADO3KpMwTAfkt3mQDAQ==</EncryptedPassword>
-    <_PublishTargetUrl>ftp://ftp.Smarterasp.net/PapaJohnsClone</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9vjD4vgKdk+xpBRUbjI8IQAAAAACAAAAAAAQZgAAAAEAACAAAAB26TnyOnR1IFSb/yGZdkQY0B1VAesujFLzLrRD6Q3jjQAAAAAOgAAAAAIAACAAAAAchGWGeYij7BAqNyq85Ie1iy5YWNliv35RwqTNwWLGnzAAAAB5dh20T8o/HttqMKaksbYd09NJ6Hq3XjFlV/LYKGPNCQWirFD08rIv+8EHfzTzm1ZAAAAAJGP0fHxu/U2DTJoie3MXo9Fkdij7TY9ZPZfSqKUayPs0CDDvw8RWTIHWlcPophsgTVXIZiRb5lPqvXbNFajiWQ==</EncryptedPassword>
+    <_PublishTargetUrl>ftp://FTP.SMARTERASP.NET/papajohnsclone</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
       <publishTime>09/27/2017 16:21:56</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>10/17/2017 23:56:20</publishTime>
+      <publishTime>01/09/2018 22:34:22</publishTime>
     </File>
     <File Include="bower.json">
       <publishTime>09/27/2017 16:24:15</publishTime>
@@ -62,22 +62,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/18/2017 01:35:35</publishTime>
     </File>
     <File Include="PapaJohnsCloneApi.deps.json">
-      <publishTime>10/18/2017 01:57:23</publishTime>
+      <publishTime>01/09/2018 23:06:59</publishTime>
     </File>
     <File Include="PapaJohnsCloneApi.dll">
-      <publishTime>10/18/2017 01:57:20</publishTime>
+      <publishTime>01/09/2018 23:06:56</publishTime>
     </File>
     <File Include="PapaJohnsCloneApi.pdb">
-      <publishTime>10/18/2017 01:57:20</publishTime>
+      <publishTime>01/09/2018 23:06:56</publishTime>
     </File>
     <File Include="PapaJohnsCloneApi.PrecompiledViews.dll">
-      <publishTime>10/18/2017 01:57:22</publishTime>
+      <publishTime>01/09/2018 23:06:59</publishTime>
     </File>
     <File Include="PapaJohnsCloneApi.PrecompiledViews.pdb">
-      <publishTime>10/18/2017 01:57:22</publishTime>
+      <publishTime>01/09/2018 23:06:59</publishTime>
     </File>
     <File Include="PapaJohnsCloneApi.runtimeconfig.json">
-      <publishTime>10/18/2017 01:57:23</publishTime>
+      <publishTime>01/09/2018 23:06:59</publishTime>
     </File>
     <File Include="System.Composition.AttributedModel.dll">
       <publishTime>10/18/2017 01:35:27</publishTime>
@@ -95,7 +95,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/18/2017 01:35:28</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>10/18/2017 01:57:23</publishTime>
+      <publishTime>01/09/2018 23:06:59</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
       <publishTime>09/27/2017 16:24:13</publishTime>
