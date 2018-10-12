@@ -1,14 +1,11 @@
 # PapaJohnsCloneApi app 
-This RESTful web service was developed for [PapaJohnsClone web application](https://tiamatt.github.io/PapaJohnsClone) and [Analytics web application](https://tiamatt.github.io/Analytics)<br />
-See [PapaJohnsClone repository](https://github.com/Tiamatt/PapaJohnsClone)
-See [Analytics repository](https://github.com/Tiamatt/Analytics)
+This RESTful web service was developed for PapaJohnsClone and Analytics apps
 
-### !!!Note, this RESTful web service was replaced by [DotNetApisForAngularProjects repository](https://github.com/Tiamatt/DotNetApisForAngularProjects).
+### !!!Note, this app is no longer used. It was replaced by [DotNetApisForAngularProjects](https://github.com/Tiamatt/DotNetApisForAngularProjects) RESTful web service.
 
 ## Demo
 Web service was deployed to SmarterAsp.Net (moved from Microsoft Azure Cloud) <br />
 Example: 
-https://www.tiamatt.com/api/item/categories
 ```json
 [
     {
